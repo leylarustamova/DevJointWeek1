@@ -1,0 +1,31 @@
+@use "../../styles/variables" as *;
+
+.hero {
+  background: linear-gradient(180deg, $color-bg-hero-start 0%, $color-bg-hero-end 100%);
+  padding: $space-6 $space-3;
+  text-align: center;
+}
+
+.hero__inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero__title {
+  font-size: $fs-h1;
+
+  @include tablet {
+    font-size: 2.5rem;
+  }
+
+  @include desktop {
+    font-size: 3rem;
+  }
+}
+
+.hero__subtitle {
+  margin-top: $space-2;
+  margin-bottom: $space-4;
+  color: $color-text-muted;
+  font-size: $fs-lg;
+}

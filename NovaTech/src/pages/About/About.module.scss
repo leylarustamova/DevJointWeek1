@@ -1,0 +1,87 @@
+@use "../../styles/variables" as *;
+
+.about {
+  background-color: $color-bg-alt;
+  padding: $space-6 $space-3;
+}
+
+.about__inner {
+  max-width: $container-max;
+  margin: 0 auto;
+}
+
+.about__title {
+  font-size: $fs-h2;
+  text-align: center;
+  margin-bottom: $space-4;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: $space-4;
+
+  @include desktop {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.about__text {
+  flex: 1 1 60%;
+}
+
+.about__subtitle {
+  font-size: $fs-h3;
+  margin-bottom: $space-1;
+}
+
+.about__desc {
+  color: $color-text-muted;
+}
+
+.about__support {
+  margin-top: $space-3;
+  background-color: $color-error-bg;
+  border-left: 4px solid $color-error;
+  border-radius: $radius-sm;
+  padding: $space-2;
+}
+
+.about__supportLabel {
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.about__supportLink {
+  word-break: break-all;
+  font-size: $fs-sm;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $space-2;
+  margin: 0;
+  flex: 1 1 35%;
+}
+
+.stats__item {
+  background-color: $color-bg;
+  border: 1px solid $color-border;
+  border-radius: $radius-md;
+  padding: $space-3;
+  text-align: center;
+}
+
+.stats__number {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: $color-primary;
+}
+
+.stats__label {
+  margin: 0.25rem 0 0;
+  color: $color-text-muted;
+  font-size: $fs-sm;
+}

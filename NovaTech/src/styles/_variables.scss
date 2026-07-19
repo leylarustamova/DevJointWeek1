@@ -1,6 +1,4 @@
-// ==========================================================================
 // Dəyişənlər (Design Tokens) — bütün komponentlər tərəfindən paylaşılır
-// ==========================================================================
 
 // Rənglər
 $color-primary: #3358e0;
@@ -12,7 +10,7 @@ $color-bg-alt: #f4f6fb;
 $color-bg-hero-start: #eaf1ff;
 $color-bg-hero-end: #f7fafc;
 $color-border: #e2e6ee;
-$color-error: #b42318;
+$color-error: #b42318; // WCAG AA: #fdecea üzərində 5.75:1 kontrast
 $color-error-bg: #fdecea;
 $color-success: #1a7f37;
 $color-footer-bg: #0f172a;
