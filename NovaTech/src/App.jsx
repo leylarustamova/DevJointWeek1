@@ -1,6 +1,9 @@
 import Header from "./pages/Header/Header";
 import Hero from "./pages/Hero/Hero";
 import About from "./pages/About/About";
+import Gallery from "./pages/Gallery/Gallery";
+import Contact from "./pages/Contact/Contact";
+import Footer from "./pages/Footer/Footer";
 
 export default function App() {
   return (
@@ -14,8 +17,11 @@ export default function App() {
       <main id="main">
         <Hero />
         <About />
+        <Gallery />
+        <Contact />
       </main>
 
+      <Footer />
     </>
   );
 }

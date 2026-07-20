@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Kod redaktoru ilə iş masası">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef2fb"/>
+      <stop offset="100%" stop-color="#dbe4f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg1)"/>
+  <rect x="90" y="120" width="360" height="230" rx="8" fill="#1e2530"/>
+  <rect x="110" y="145" width="180" height="10" rx="2" fill="#7dd3fc"/>
+  <rect x="110" y="165" width="240" height="10" rx="2" fill="#a5b4fc"/>
+  <rect x="110" y="185" width="140" height="10" rx="2" fill="#86efac"/>
+  <rect x="110" y="205" width="200" height="10" rx="2" fill="#fca5a5"/>
+  <rect x="110" y="225" width="160" height="10" rx="2" fill="#7dd3fc"/>
+  <rect x="480" y="90" width="230" height="290" rx="8" fill="#0f172a"/>
+  <rect x="500" y="115" width="150" height="10" rx="2" fill="#86efac"/>
+  <rect x="500" y="135" width="190" height="10" rx="2" fill="#a5b4fc"/>
+  <rect x="500" y="155" width="120" height="10" rx="2" fill="#fde68a"/>
+  <rect x="60" y="400" width="680" height="16" rx="8" fill="#c7d2e8"/>
+  <circle cx="140" cy="430" r="18" fill="#94a3b8"/>
+</svg>

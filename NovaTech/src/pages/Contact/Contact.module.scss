@@ -1,0 +1,77 @@
+@use "../../styles/variables" as *;
+
+.contact {
+  background-color: $color-bg-alt;
+  padding: $space-6 $space-3;
+}
+
+.contact__inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact__title {
+  font-size: $fs-h2;
+  text-align: center;
+  margin-bottom: $space-4;
+}
+
+.contactForm {
+  background-color: $color-bg;
+  border: 1px solid $color-border;
+  border-radius: $radius-md;
+  padding: $space-4;
+}
+
+.contactForm__field {
+  margin-bottom: $space-3;
+}
+
+.contactForm__label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.contactForm__control {
+  width: 100%;
+  border: 1px solid $color-border;
+  border-radius: $radius-sm;
+  padding: 0.75rem;
+  font-family: inherit;
+  font-size: $fs-base;
+  color: $color-text;
+  background-color: $color-bg;
+  resize: vertical;
+
+  &::placeholder {
+    color: #9aa3b2;
+  }
+}
+
+.isInvalid {
+  border-color: $color-error;
+}
+
+.contactForm__error {
+  display: block;
+  min-height: 1.1em;
+  color: $color-error;
+  font-size: $fs-sm;
+  margin-top: 0.35rem;
+}
+
+.contactForm__submit {
+  width: 100%;
+
+  @include tablet {
+    width: auto;
+  }
+}
+
+.contactForm__success {
+  margin-top: $space-2;
+  color: $color-success;
+  font-weight: 600;
+  text-align: center;
+}

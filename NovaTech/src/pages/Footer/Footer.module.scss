@@ -1,0 +1,18 @@
+@use "../../styles/variables" as *;
+
+.footer {
+  background-color: $color-footer-bg;
+  padding: $space-3;
+}
+
+.footer__inner {
+  max-width: $container-max;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer__text {
+  color: $color-footer-text;
+  font-size: $fs-sm;
+  margin: 0;
+}
